@@ -1,0 +1,22 @@
+{
+    "require": {
+        "aydin-hassan/magento-core-composer-installer": "2.1.0",
+        "openmage/magento-lts": "v19.4.15",
+        "magento-hackathon/magento-composer-installer": "4.0.2",
+        "aoepeople/aoe_scheduler": "1.5.2",
+        "ext-zlib": "*"
+    },
+    "extra": {
+        "magento-core-package-type": "magento-source",
+        "magento-root-dir": "htdocs",
+        "magento-force": true,
+        "magento-deploystrategy": "symlink",
+        "magento-deploystrategy-dev": "symlink"
+    },
+    "config": {
+        "allow-plugins": {
+            "aydin-hassan/magento-core-composer-installer": true,
+            "magento-hackathon/magento-composer-installer": true
+        }
+    }
+}
